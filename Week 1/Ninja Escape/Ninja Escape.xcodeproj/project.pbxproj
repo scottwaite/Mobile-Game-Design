@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D072CA41B50C6C5005FD5FE /* DeadNinja.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D072CA31B50C6C5005FD5FE /* DeadNinja.png */; };
+		2D072CA61B50C974005FD5FE /* Saw.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D072CA51B50C974005FD5FE /* Saw.png */; };
 		2D0E3A9D1B50B0C30060FE1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0E3A9C1B50B0C30060FE1F /* AppDelegate.swift */; };
 		2D0E3A9F1B50B0C30060FE1F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2D0E3A9E1B50B0C30060FE1F /* GameScene.sks */; };
 		2D0E3AA11B50B0C30060FE1F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0E3AA01B50B0C30060FE1F /* GameScene.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D072CA31B50C6C5005FD5FE /* DeadNinja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeadNinja.png; sourceTree = "<group>"; };
+		2D072CA51B50C974005FD5FE /* Saw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saw.png; sourceTree = "<group>"; };
 		2D0E3A971B50B0C30060FE1F /* Ninja Escape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja Escape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0E3A9B1B50B0C30060FE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D0E3A9C1B50B0C30060FE1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 		2D0E3A8E1B50B0C30060FE1F = {
 			isa = PBXGroup;
 			children = (
+				2D072CA51B50C974005FD5FE /* Saw.png */,
+				2D072CA31B50C6C5005FD5FE /* DeadNinja.png */,
 				2D0E3ACE1B50C0090060FE1F /* background_music.caf */,
 				2D0E3ACA1B50BE100060FE1F /* NinjaGlide.png */,
 				2D0E3AC61B50BBF20060FE1F /* background.png */,
@@ -171,6 +177,7 @@
 		2D0E3A8F1B50B0C30060FE1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Scott Waite";
 				TargetAttributes = {
@@ -213,6 +220,8 @@
 				2D0E3ACB1B50BE100060FE1F /* NinjaGlide.png in Resources */,
 				2D0E3AA81B50B0C30060FE1F /* Images.xcassets in Resources */,
 				2D0E3A9F1B50B0C30060FE1F /* GameScene.sks in Resources */,
+				2D072CA61B50C974005FD5FE /* Saw.png in Resources */,
+				2D072CA41B50C6C5005FD5FE /* DeadNinja.png in Resources */,
 				2D0E3AA61B50B0C30060FE1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +438,7 @@
 				2D0E3ABC1B50B0C30060FE1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D0E3ABD1B50B0C30060FE1F /* Build configuration list for PBXNativeTarget "Ninja EscapeTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +447,7 @@
 				2D0E3ABF1B50B0C30060FE1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
