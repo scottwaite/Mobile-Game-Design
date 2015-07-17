@@ -20,6 +20,8 @@
 		2D0E3ACB1B50BE100060FE1F /* NinjaGlide.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0E3ACA1B50BE100060FE1F /* NinjaGlide.png */; };
 		2D0E3ACF1B50C0090060FE1F /* background_music.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2D0E3ACE1B50C0090060FE1F /* background_music.caf */; };
 		2D2998B21B5886E200E00A3F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2998B11B5886E200E00A3F /* background.png */; };
+		2D6BDEFE1B58929400A37A40 /* scifi2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BDEFD1B58929400A37A40 /* scifi2.mp3 */; };
+		2D6BDF001B58963600A37A40 /* high_pitched_hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BDEFF1B58963600A37A40 /* high_pitched_hello.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		2D0E3ACA1B50BE100060FE1F /* NinjaGlide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NinjaGlide.png; sourceTree = "<group>"; };
 		2D0E3ACE1B50C0090060FE1F /* background_music.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = background_music.caf; sourceTree = "<group>"; };
 		2D2998B11B5886E200E00A3F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2D6BDEFD1B58929400A37A40 /* scifi2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scifi2.mp3; sourceTree = "<group>"; };
+		2D6BDEFF1B58963600A37A40 /* high_pitched_hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = high_pitched_hello.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				2D072CA51B50C974005FD5FE /* Saw.png */,
 				2D072CA31B50C6C5005FD5FE /* DeadNinja.png */,
 				2D0E3ACE1B50C0090060FE1F /* background_music.caf */,
+				2D6BDEFD1B58929400A37A40 /* scifi2.mp3 */,
+				2D6BDEFF1B58963600A37A40 /* high_pitched_hello.mp3 */,
 				2D0E3ACA1B50BE100060FE1F /* NinjaGlide.png */,
 				2D2998B11B5886E200E00A3F /* background.png */,
 				2D0E3A991B50B0C30060FE1F /* Ninja Escape */,
@@ -216,6 +222,8 @@
 			files = (
 				2D0E3AAB1B50B0C30060FE1F /* LaunchScreen.xib in Resources */,
 				2D0E3ACF1B50C0090060FE1F /* background_music.caf in Resources */,
+				2D6BDEFE1B58929400A37A40 /* scifi2.mp3 in Resources */,
+				2D6BDF001B58963600A37A40 /* high_pitched_hello.mp3 in Resources */,
 				2D0E3ACB1B50BE100060FE1F /* NinjaGlide.png in Resources */,
 				2D0E3AA81B50B0C30060FE1F /* Images.xcassets in Resources */,
 				2D0E3A9F1B50B0C30060FE1F /* GameScene.sks in Resources */,
