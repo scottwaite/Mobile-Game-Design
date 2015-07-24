@@ -20,9 +20,13 @@
 		2D0E3ACB1B50BE100060FE1F /* NinjaGlide.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0E3ACA1B50BE100060FE1F /* NinjaGlide.png */; };
 		2D0E3ACF1B50C0090060FE1F /* background_music.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2D0E3ACE1B50C0090060FE1F /* background_music.caf */; };
 		2D2998B21B5886E200E00A3F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2998B11B5886E200E00A3F /* background.png */; };
+		2D3F60031B61DD3200D69492 /* run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2D3F60021B61DD3200D69492 /* run.atlas */; };
 		2D6BDEFE1B58929400A37A40 /* scifi2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BDEFD1B58929400A37A40 /* scifi2.mp3 */; };
-		2D6BDF001B58963600A37A40 /* high_pitched_hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BDEFF1B58963600A37A40 /* high_pitched_hello.mp3 */; };
 		2D6BDF021B58A6C600A37A40 /* chainsaw_operating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BDF011B58A6C600A37A40 /* chainsaw_operating.mp3 */; };
+		2DFD35071B61893B00266917 /* Acid (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD35061B61893B00266917 /* Acid (2).png */; };
+		2DFD35091B618B9000266917 /* Acid (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD35081B618B9000266917 /* Acid (1).png */; };
+		2DFD350B1B6190EE00266917 /* DoorOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD350A1B6190EE00266917 /* DoorOpen.png */; };
+		2DFD350D1B61933500266917 /* greenAcidBK.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD350C1B61933500266917 /* greenAcidBK.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +57,13 @@
 		2D0E3ACA1B50BE100060FE1F /* NinjaGlide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NinjaGlide.png; sourceTree = "<group>"; };
 		2D0E3ACE1B50C0090060FE1F /* background_music.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = background_music.caf; sourceTree = "<group>"; };
 		2D2998B11B5886E200E00A3F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2D3F60021B61DD3200D69492 /* run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = run.atlas; sourceTree = "<group>"; };
 		2D6BDEFD1B58929400A37A40 /* scifi2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scifi2.mp3; sourceTree = "<group>"; };
-		2D6BDEFF1B58963600A37A40 /* high_pitched_hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = high_pitched_hello.mp3; sourceTree = "<group>"; };
 		2D6BDF011B58A6C600A37A40 /* chainsaw_operating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chainsaw_operating.mp3; sourceTree = "<group>"; };
+		2DFD35061B61893B00266917 /* Acid (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acid (2).png"; sourceTree = "<group>"; };
+		2DFD35081B618B9000266917 /* Acid (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acid (1).png"; sourceTree = "<group>"; };
+		2DFD350A1B6190EE00266917 /* DoorOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoorOpen.png; sourceTree = "<group>"; };
+		2DFD350C1B61933500266917 /* greenAcidBK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenAcidBK.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				2D072CA51B50C974005FD5FE /* Saw.png */,
+				2DFD350A1B6190EE00266917 /* DoorOpen.png */,
+				2DFD350C1B61933500266917 /* greenAcidBK.png */,
+				2DFD35081B618B9000266917 /* Acid (1).png */,
+				2DFD35061B61893B00266917 /* Acid (2).png */,
 				2D072CA31B50C6C5005FD5FE /* DeadNinja.png */,
 				2D0E3ACE1B50C0090060FE1F /* background_music.caf */,
 				2D6BDF011B58A6C600A37A40 /* chainsaw_operating.mp3 */,
 				2D6BDEFD1B58929400A37A40 /* scifi2.mp3 */,
-				2D6BDEFF1B58963600A37A40 /* high_pitched_hello.mp3 */,
 				2D0E3ACA1B50BE100060FE1F /* NinjaGlide.png */,
 				2D2998B11B5886E200E00A3F /* background.png */,
 				2D0E3A991B50B0C30060FE1F /* Ninja Escape */,
@@ -120,6 +131,7 @@
 		2D0E3A9A1B50B0C30060FE1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2D3F60021B61DD3200D69492 /* run.atlas */,
 				2D0E3A9B1B50B0C30060FE1F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -227,14 +239,18 @@
 				2D0E3ACF1B50C0090060FE1F /* background_music.caf in Resources */,
 				2D6BDF021B58A6C600A37A40 /* chainsaw_operating.mp3 in Resources */,
 				2D6BDEFE1B58929400A37A40 /* scifi2.mp3 in Resources */,
-				2D6BDF001B58963600A37A40 /* high_pitched_hello.mp3 in Resources */,
+				2DFD35071B61893B00266917 /* Acid (2).png in Resources */,
 				2D0E3ACB1B50BE100060FE1F /* NinjaGlide.png in Resources */,
 				2D0E3AA81B50B0C30060FE1F /* Images.xcassets in Resources */,
+				2DFD350D1B61933500266917 /* greenAcidBK.png in Resources */,
 				2D0E3A9F1B50B0C30060FE1F /* GameScene.sks in Resources */,
+				2DFD350B1B6190EE00266917 /* DoorOpen.png in Resources */,
 				2D072CA61B50C974005FD5FE /* Saw.png in Resources */,
 				2D072CA41B50C6C5005FD5FE /* DeadNinja.png in Resources */,
 				2D2998B21B5886E200E00A3F /* background.png in Resources */,
+				2DFD35091B618B9000266917 /* Acid (1).png in Resources */,
 				2D0E3AA61B50B0C30060FE1F /* Main.storyboard in Resources */,
+				2D3F60031B61DD3200D69492 /* run.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +400,7 @@
 				INFOPLIST_FILE = "Ninja Escape/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -394,6 +411,7 @@
 				INFOPLIST_FILE = "Ninja Escape/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
