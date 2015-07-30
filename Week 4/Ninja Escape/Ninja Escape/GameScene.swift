@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  Ninja Escape
 //
-//  Created by Scott Waite on 7/16/15.
+//  Created by Scott Waite on 7/30/15.
 //  Copyright (c) 2015 Scott Waite. All rights reserved.
 //
 
@@ -203,7 +203,24 @@ class GameScene: SKScene {
             self.addChild(ninja)
             
         }
+        
+        
 
+            
+            let pauseLabel = childNodeWithName("pauseLabel")
+            
+            if(pauseLabel != nil){
+                
+                let fadeOut = SKAction.fadeOutWithDuration(1)
+                
+                pauseLabel?.runAction(fadeOut, completion: {
+                    let doors = SKTransition.doorwayWithDuration(1)
+                    let gameScene = SplashScreen(fileNamed: "SplashScreen")
+                    self.view?.presentScene(gameScene, transition: doors)
+                    
+                })
+            }
+        
     }
 
 }
