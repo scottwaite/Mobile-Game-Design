@@ -13,11 +13,11 @@
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Scott Waite. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
                     <rect key="frame" x="20" y="439" width="441" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="hyG-hy-czC">
-                    <rect key="frame" x="0.0" y="-26" width="385" height="595"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="hyG-hy-czC">
+                    <rect key="frame" x="29" y="-60" width="344" height="480"/>
                     <color key="backgroundColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
                 </imageView>
             </subviews>
@@ -33,6 +33,6 @@
         </view>
     </objects>
     <resources>
-        <image name="LaunchImage.png" width="750" height="1334"/>
+        <image name="Launch.png" width="605" height="712"/>
     </resources>
 </document>

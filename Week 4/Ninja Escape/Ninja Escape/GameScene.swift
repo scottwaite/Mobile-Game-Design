@@ -204,23 +204,6 @@ class GameScene: SKScene {
             
         }
         
-        
-
-            
-            let pauseLabel = childNodeWithName("pauseLabel")
-            
-            if(pauseLabel != nil){
-                
-                let fadeOut = SKAction.fadeOutWithDuration(1)
-                
-                pauseLabel?.runAction(fadeOut, completion: {
-                    let doors = SKTransition.doorwayWithDuration(1)
-                    let gameScene = SplashScreen(fileNamed: "SplashScreen")
-                    self.view?.presentScene(gameScene, transition: doors)
-                    
-                })
-            }
-        
     }
 
 }

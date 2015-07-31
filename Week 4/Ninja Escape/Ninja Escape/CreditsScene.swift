@@ -1,5 +1,5 @@
 //
-//  SplashScreen.swift
+//  InstructionsScene.swift
 //  Ninja Escape
 //
 //  Created by Scott Waite on 7/30/15.
@@ -9,44 +9,28 @@
 import UIKit
 import SpriteKit
 
-class SplashScreen: SKScene {
+class CreditsScene: SKScene {
     
     //Setup your scene here
     override func didMoveToView(view: SKView) {
         
     }
-   
+    
     
     //Called when a touch begins
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         
-        let introLabel = childNodeWithName("introLabel")
+        let returnLabel = childNodeWithName("returnLabel")
         
-        if(introLabel != nil){
+        if(returnLabel != nil){
             let fadeOut = SKAction.fadeOutWithDuration(1.5)
             
-            introLabel?.runAction(fadeOut, completion: {
+            returnLabel?.runAction(fadeOut, completion: {
                 let doors = SKTransition.doorwayWithDuration(1.5)
                 let gameScene = GameScene(fileNamed: "GameScene")
                 self.view?.presentScene(gameScene, transition: doors)
                 
-                
             })
-        }
-        
-        let creditsLabel = childNodeWithName("creditsLabel")
-        
-        if(creditsLabel != nil){
-            let fadeOut = SKAction.fadeOutWithDuration(1.5)
-            
-            creditsLabel?.runAction(fadeOut, completion: {
-                let doors = SKTransition.doorsCloseVerticalWithDuration(1.5)
-                let gameScene = CreditsScene(fileNamed: "CreditsScene")
-                self.view?.presentScene(gameScene, transition: doors)
-                
-                
-            })
-            
         }
     }
     
